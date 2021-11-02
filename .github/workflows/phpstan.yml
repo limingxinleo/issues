@@ -8,7 +8,7 @@ on:
 
 jobs:
   enable_cli_with_swoole:
-    name: Test for PHPStan
+    name: Test for PHPStan with Swoole and Opcache enable cli
     runs-on: 'ubuntu-latest'
     env:
       PHP_VERSION: ${{ matrix.php-version }}
