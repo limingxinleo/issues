@@ -1,4 +1,4 @@
-name: PHPUnit for Issues
+name: PHPUnit for PHPStan issues
 
 on:
   push:
