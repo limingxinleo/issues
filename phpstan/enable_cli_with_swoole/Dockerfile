@@ -5,4 +5,4 @@ WORKDIR /opt/www
 ADD . .
 
 RUN composer update -o \
-    && vendor/bin/phpstan analyse -l 5 -c phpstan.neon index.php
+RUN vendor/bin/phpstan analyse -l 5 -c phpstan.neon index.php
