@@ -33,4 +33,4 @@ jobs:
         run: |
           cd phpstan/enable_cli_with_swoole
           composer update -o
-          vendor/bin/phpstan analyse -l 5 -c phpstan.neon index.php
+          vendor/bin/phpstan analyse -l 5 -c phpstan.neon app

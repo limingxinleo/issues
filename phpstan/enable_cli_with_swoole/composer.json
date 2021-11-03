@@ -1,7 +1,8 @@
 {
     "require": {
         "php": "^8.0",
-        "phpstan/phpstan": "^1.0"
+        "phpstan/phpstan": "^1.0",
+        "hyperf/hyperf": "^2.2"
     },
     "require-dev": {
         "bandwidth-throttle/token-bucket": "^2.0",
